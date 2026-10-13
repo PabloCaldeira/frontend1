@@ -13,8 +13,11 @@ body {
     font-family: Segoe UI, sans-serif;
     line-height: 1.6;
     background-color: #f7f4ec;
-    color:rgb(0, 0, 0)
-    
+    color:rgb(0, 0, 0);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+
 }
 
 .container {
@@ -78,11 +81,6 @@ a:hover {
     color: #e40000;
 }
 
-@media (max-width: 600px) {
-    #galeria {
-        flex-direction: column; 
-  }
-}
 
 h2[id] {
     scroll-margin-top: 60px;
