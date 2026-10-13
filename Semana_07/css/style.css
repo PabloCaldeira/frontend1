@@ -93,3 +93,11 @@ a:hover {
 h2[id] {
     scroll-margin-top: 60px;
 }
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #503b01;
+}
